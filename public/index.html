@@ -1770,7 +1770,7 @@ createApp({
     
     mounted() {
         // جلب المنتجات من الباك اند بدلاً من localStorage
-        fetch('http://localhost:4000/api/portfolio')
+        fetch('https://al-madina-press-backend.onrender.com/api/portfolio')
           .then(res => res.json())
           .then(data => {
             this.portfolioItems = data;
